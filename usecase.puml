@@ -1,0 +1,25 @@
+@startuml YardManagement
+
+left to right direction
+
+:Entreprise: as ets
+:Client: as cli
+skinparam actorStyle awesome
+:User: as us
+ets --|> us 
+cli --|> us
+
+rectangle "Yard Management"{
+
+    ets --> (Remplir ses disponibilités)
+    ets --> (Postuler à des appels d'offre)
+    cli --> (Créer chantier)
+    us --> (Créer des appels d'offre)
+    us --> (Statistiques d'avancement)
+    cli --> (Gestion des deadlines)
+    ets --> (Gestion des prestataires)
+    ets --> (Getion des missions sur le chantier)
+
+}
+
+@enduml
