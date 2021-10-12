@@ -3,81 +3,81 @@
   <ID>DATABASE</ID>
   <OriginalElement>c15e68d0-6a46-446e-ae50-69ff8097021f.SCHEMA:yardManagement</OriginalElement>
   <nodes>
+    <node x="298.9137931034483" y="0.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur</node>
     <node x="0.0" y="743.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.mission</node>
-    <node x="286.84482758620703" y="0.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user</node>
-    <node x="381.13074712643675" y="867.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.proposition</node>
-    <node x="593.8807471264367" y="459.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification</node>
-    <node x="39.880747126436745" y="474.5">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.disponibilite</node>
-    <node x="597.75" y="108.5">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.type_notification</node>
-    <node x="332.88074712643675" y="428.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier</node>
+    <node x="397.9568965517242" y="867.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.proposition</node>
+    <node x="630.9568965517242" y="459.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification</node>
+    <node x="634.875" y="108.5">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.type_notification</node>
+    <node x="22.956896551724185" y="474.5">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.disponibilite</node>
+    <node x="342.9568965517242" y="428.0">c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.disponibilite" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="0.0" y="-85.0" />
-      <point x="176.38074712643675" y="397.0" />
-      <point x="397.6781609195405" y="397.0" />
-      <point x="-22.166666666666515" y="178.0" />
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.mission" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="-77.0" y="-209.0" />
+      <point x="77.0" y="717.0" />
+      <point x="12.456896551724185" y="717.0" />
+      <point x="12.456896551724185" y="387.0" />
+      <point x="370.1637931034483" y="387.0" />
+      <point x="-71.25" y="178.0" />
     </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.type_notification" relationship="REFERENCES">
-      <point x="78.75" y="-100.5" />
-      <point x="830.1307471264367" y="407.0" />
-      <point x="755.25" y="407.0" />
-      <point x="0.0" y="69.5" />
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="-118.75" y="178.0" />
+      <point x="322.6637931034483" y="376.0" />
+      <point x="278.9137931034483" y="376.0" />
+      <point x="278.9137931034483" y="178.0" />
+      <point x="-142.5" y="0.0" />
+    </edge>
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.disponibilite" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="0.0" y="-85.0" />
+      <point x="172.95689655172418" y="397.0" />
+      <point x="417.6637931034483" y="397.0" />
+      <point x="-23.75" y="178.0" />
     </edge>
     <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.proposition" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier" relationship="REFERENCES">
-      <point x="-68.5" y="-85.0" />
-      <point x="449.63074712643675" y="717.0" />
-      <point x="452.88074712643675" y="717.0" />
+      <point x="-75.25" y="-85.0" />
+      <point x="473.2068965517242" y="717.0" />
+      <point x="476.4568965517242" y="717.0" />
       <point x="0.0" y="131.5" />
     </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="-110.83333333333331" y="178.0" />
-      <point x="309.0114942528737" y="376.0" />
-      <point x="266.84482758620703" y="376.0" />
-      <point x="266.84482758620703" y="178.0" />
-      <point x="-133.0" y="0.0" />
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="66.75" y="-131.5" />
+      <point x="543.2068965517242" y="407.0" />
+      <point x="512.6637931034484" y="407.0" />
+      <point x="71.25000000000006" y="178.0" />
     </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="-78.75" y="-100.5" />
-      <point x="672.6307471264367" y="407.0" />
-      <point x="611.66091954023" y="407.0" />
-      <point x="611.66091954023" y="397.0" />
-      <point x="530.6781609195405" y="397.0" />
-      <point x="110.83333333333343" y="178.0" />
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.type_notification" relationship="REFERENCES">
+      <point x="85.5" y="-100.5" />
+      <point x="887.4568965517242" y="407.0" />
+      <point x="805.875" y="407.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.proposition" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="75.25" y="-85.0" />
+      <point x="623.7068965517242" y="717.0" />
+      <point x="620.4568965517242" y="717.0" />
+      <point x="620.4568965517242" y="407.0" />
+      <point x="651.7931034482759" y="407.0" />
+      <point x="651.7931034482759" y="397.0" />
+      <point x="560.1637931034484" y="397.0" />
+      <point x="118.75000000000006" y="178.0" />
+    </edge>
+    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.notification" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.utilisateur" relationship="REFERENCES">
+      <point x="-85.5" y="-100.5" />
+      <point x="716.4568965517242" y="407.0" />
+      <point x="651.7931034482759" y="407.0" />
+      <point x="651.7931034482759" y="397.0" />
+      <point x="560.1637931034484" y="397.0" />
+      <point x="118.75000000000006" y="178.0" />
     </edge>
     <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.mission" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier" relationship="REFERENCES">
       <point x="77.0" y="-209.0" />
       <point x="231.0" y="717.0" />
-      <point x="452.88074712643675" y="717.0" />
+      <point x="476.4568965517242" y="717.0" />
       <point x="0.0" y="131.5" />
     </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.proposition" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="68.5" y="-85.0" />
-      <point x="586.6307471264367" y="717.0" />
-      <point x="583.3807471264367" y="717.0" />
-      <point x="583.3807471264367" y="407.0" />
-      <point x="611.66091954023" y="407.0" />
-      <point x="611.66091954023" y="397.0" />
-      <point x="530.6781609195405" y="397.0" />
-      <point x="110.83333333333343" y="178.0" />
-    </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.chantier" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="-60.0" y="-131.5" />
-      <point x="392.88074712643675" y="407.0" />
-      <point x="442.01149425287355" y="407.0" />
-      <point x="22.166666666666515" y="178.0" />
-    </edge>
-    <edge source="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.mission" target="c15e68d0-6a46-446e-ae50-69ff8097021f.TABLE:yardManagement.user" relationship="REFERENCES">
-      <point x="-77.0" y="-209.0" />
-      <point x="77.0" y="717.0" />
-      <point x="29.380747126436745" y="717.0" />
-      <point x="29.380747126436745" y="387.0" />
-      <point x="353.34482758620703" y="387.0" />
-      <point x="-66.5" y="178.0" />
-    </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.7231160033869602" showDependencies="false" x="456.5000000000001" y="580.4999999999998" />
+  <settings layout="Hierarchic" zoom="0.7231160033869602" showDependencies="false" x="488.5" y="580.5" />
   <SelectedNodes />
   <Categories>
     <Category>Columns</Category>
