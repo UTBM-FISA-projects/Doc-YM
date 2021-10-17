@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+title **Token authentication**
+
+skinparam ParticipantPadding 80
+skinparam style strictuml
+skinparam sequenceMessageAlign center
+
+participant Client as cli
+participant Server as srv
+
+|||
+activate cli
+
+note over cli: Requests to <url>
+
+|||
+
+cli -> srv: GET <url>
+note left: Cookie: token=<token>
+
+|||
+activate srv
+
+note over srv: Check token in DB
+note over srv: Check token is under 24h
+
+|||
+
+alt#gold #yellowgreen Success
+    note over srv: Retrieve data according to authenticated user
+    cli <-- srv: 200 OK
+    |||
+else #lightcoral Failure
+    cli <-- srv: 401 Unauthorized
+    note over cli: Gets redirected to login page
+    |||
+end
+
+deactivate srv
+
+|||
+
+@enduml
